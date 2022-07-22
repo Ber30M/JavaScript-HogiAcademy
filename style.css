@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+}
+p{
+    background:none;
+}
+button{
+    background-color: rgb(17, 158, 97);
+    color: white;
+    border-radius: 10px;
+}
+body{
+    max-width: 200vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculatrice{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(5, 60px);
+    grid-row-gap: 3px;
+    grid-column-gap: 3px;
+}
+.lesBoutons{
+    background-color: rgb(145, 204, 236);
+}
+.ecran{
+    height: auto;
+    background-color: rgb(221, 225, 213);
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    grid-column: 1/4;
+    border-radius: 10px;
+}
